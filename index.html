@@ -5,7 +5,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>嘻嘻</title>
-    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="Resource/Js/jquery-3.2.1/jquery-3.2.1.min.js"></script>
     <style>
         .headcontainer{
             background-color: #fff0f0;
@@ -29,6 +29,7 @@
             border-radius: 15px;
         }
     </style>
+
 </head>
 <body>
 <script>
@@ -40,15 +41,16 @@
             $("#innercontent").html(text[i]);
             i= (i+1)%2;
     }
+
     function changeImages() {
-        $("#headimages").attr("src","../Resource/Image/"+images[j]+".jpg");
+        $("#headimages").attr("src","Resource/Images/"+images[j]+".jpg");
         j= (j+1)%4;
     }
     $(function () {
         setInterval('changeh1text()',1500);
         setInterval('changeImages()',1500);
     });
-</script>
+    </script>
 <div id="head" class="headcontainer">
     <div id="innercontent" class="InnerContent">
        傻逼
@@ -56,7 +58,8 @@
     <div class="HeadImage" >
         <img id="headimages" src="../Resource/Image/1.jpg"/>
     </div>
-</div>
+
+   </div>
 
 </body>
 </html>
