@@ -218,6 +218,8 @@ http://192.168.0.211:4022/udp/235.254.197.41:7980
 http://192.168.0.211:4022/udp/235.254.199.76:7980
 #EXTINF:-1 tvg-id="" tvg-name="热播剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/IPTV热播剧场.png" group-title="点播",IPTV热播剧场
 http://192.168.0.211:4022/udp/235.254.199.113:7980
+#EXTINF:-1 tvg-id="" tvg-name="重庆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/IPTV魅力时尚.png" group-title="点播",IPTV魅力时尚
+http://192.168.0.211:4022/udp/235.254.199.115:7980
 
 #EXTINF:-1 tvg-id="" tvg-name="重庆卫视" tvg-logo="https://tb.zbds.top/logo/IPTV3+.png" group-title="点播",车思敏专属频道
 http://192.168.0.211:4022/udp/235.254.199.13:7980
@@ -227,8 +229,6 @@ http://192.168.0.211:4022/udp/235.254.199.16:7980
 http://192.168.0.211:4022/udp/235.254.199.15:7980
 #EXTINF:-1 tvg-id="" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="点播",CCTV4K
 http://192.168.0.211:4022/udp/235.254.199.102:7980
-#EXTINF:-1 tvg-id="" tvg-name="重庆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/IPTV魅力时尚.png" group-title="点播",IPTV魅力时尚
-http://192.168.0.211:4022/udp/235.254.199.115:7980
 #EXTINF:-1 tvg-id="" tvg-name="游戏风云" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/youxifengyun.png" group-title="点播",游戏风云
 http://192.168.0.211:4022/udp/235.254.197.46:7980
 #EXTINF:-1 tvg-id="" tvg-name="游戏风云" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/chongqing.png" group-title="点播",游戏直播
